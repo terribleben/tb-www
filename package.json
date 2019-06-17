@@ -10,7 +10,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
-  "homepage": "https://terribleben.github.io/tb-www",
+  "homepage": "https://terribleben.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
