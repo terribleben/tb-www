@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Goat Machine 0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-title" content="Goat Machine 0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/requestAnimationFrame.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body class='main'>
+  <div class="container">
+    <section class="surface">
+      <div class="touchindicator"></div>
+      <canvas></canvas>
+    </section> 
+  </div>
+</body>
+</html>

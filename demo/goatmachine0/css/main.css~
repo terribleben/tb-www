@@ -1,0 +1,56 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html { 
+     -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust: 100%;
+     -webkit-user-select: none;
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+     -webkit-touch-callout: none; 
+}
+
+body {
+     background: #555555;
+}
+
+.container {
+	   width: 98vw; 
+	   margin: 0 auto; 
+	   text-align: center;
+}
+
+.surface {
+	 position: relative;
+	 overflow: hidden;
+	 clear: both;
+	 width: 98vw; 
+	 height: 98vh; 
+	 border: 5px solid #cccccc;
+	 background: #100e16;
+	 cursor: pointer;
+}
+
+.touchindicator {
+	display: none;
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: -30px;
+	left: -30px;
+	background: #cccccc;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.active {
+	display: block;
+}
+
+canvas { 
+
+}
