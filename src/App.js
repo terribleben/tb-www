@@ -9,50 +9,82 @@ const sections = [
       {
         name: 'Castle',
         url: 'https://castle.games',
+        description: 'a game creation environment and community',
       },
       {
         name: 'Bit Graves',
         url: 'http://bitgraves.com',
+        description: 'an experimental hardware+DSP band',
       },
       {
         name: 'Expo',
         url: 'http://expo.io',
+        description: 'an app creation tool',
       },
-    ],
-  },
-  {
-    id: 'stuff',
-    title: 'Some stuff',
-    items: [
       {
         name: 'PitShift',
         url: 'https://reading.supply/@ben/implementing-a-pitch-shifter-in-supercollider-Z0fcAX',
+        description: 'a SuperCollider pitch shifter',
       },
       {
         name: 'Circloid',
         url: 'https://castle.games/+2/@ben/circloid',
+        description: 'a lua game',
+      },
+      {
+        name: 'Structures',
+        url: 'https://terribleben.bandcamp.com/album/structures',
+        description: 'textural electronic ChucK music',
+      },
+      {
+        name: 'AM Sonora',
+        url: 'https://terribleben.bandcamp.com/album/am-sonora',
+        description: 'synthesizer border music',
+      },
+      {
+        name: 'chuck-mode',
+        url: 'https://github.com/terribleben/chuck-mode',
+        description: 'emacs and ChucK',
       },
       {
         name: 'Endless Library',
         url: 'https://terribleben.itch.io/endless-library',
+        description: 'a procedurally generated library',
       },
       {
         name: 'Goat machine',
-        url: 'http://terribleben.com/demo/goatmachine0',
+        url: '/demo/goatmachine0',
+        description: 'a WebAudio formant synthesizer',
       },
-    ],
-  },
-  {
-    id: 'contact',
-    title: 'Reach me',
-    items: [
+      {
+        name: 'Terrible Sync',
+        url: 'https://github.com/terribleben/terrible-sync',
+        description: 'a voltage metronome',
+      },
+      {
+        name: 'Runabout',
+        url: 'https://castle.games/+37/@ben/runabout',
+        description: 'an abstract lander game',
+      },
+      {
+        name: 'Torus',
+        url: 'https://www.youtube.com/watch?v=vNhct2wUPIc',
+        description: 'revolving steelpans',
+      },
+      {
+        name: 'Soundcloud',
+        url: 'https://soundcloud.com/terribleben',
+        description: 'old tracks',
+      },
       {
         name: 'Twitter',
         url: 'https://twitter.com/terribleben',
+        description: 'a way to reach me',
       },
       {
         name: 'Github',
         url: 'https://github.com/terribleben',
+        description: 'source code',
       },
     ],
   },
@@ -62,11 +94,11 @@ export default class App extends Component {
   _renderSection = (section) => {
     return (
       <div id={section.id} key={section.id} class="topic">
-        <h1>{section.title}</h1>
         {section.items.map((item) => (
-          <ul key={item.name}>
-            <li><a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a></li>
-          </ul>
+          <div className="item" key={item.name}>
+            <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>,{' '}
+            <span className="description">{item.description}</span>
+          </div>
         ))}
       </div>
     );
@@ -75,11 +107,11 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <div id="intro">
-          <p>I'm <span id="ben">Ben Roth</span>, a programmer and musician living in Seattle.</p>
-        </div>
         <div id="container">
           {sections.map(this._renderSection)}
+        </div>
+        <div id="intro">
+          <p><span id="ben">Ben Roth</span>, a programmer and musician living in Seattle</p>
         </div>
       </div>
     );
