@@ -106,12 +106,12 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div id="container">
+      <div id="container">
+        <div id="content">
           {sections.map(this._renderSection)}
-        </div>
-        <div id="intro">
-          <p><span id="ben">Ben Roth</span>, a programmer and musician living in Seattle</p>
+          <div id="intro">
+            <p><span id="ben">Ben Roth</span>, a programmer and musician living in Seattle</p>
+          </div>
         </div>
       </div>
     );

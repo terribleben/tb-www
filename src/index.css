@@ -2,14 +2,12 @@ body {
     margin: 0;
     font-family: georgia, serif;
     background-color: #fff;
-    margin: 0 92px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     body {
         -webkit-text-size-adjust: none;
-        margin: 0 48px;
     }
 }
