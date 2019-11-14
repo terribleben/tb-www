@@ -1,103 +1,111 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 const sections = [
   {
-    id: 'current',
-    title: 'Recently working on',
+    id: "current",
+    title: "Recently working on",
     items: [
       {
-        name: 'Castle',
-        url: 'https://castle.games',
-        description: 'a game creation environment and community',
+        name: "Untitled Dungeon",
+        url: "https://castle.games/+6j1567",
+        description: "a small pixel world which hides a mystery"
       },
       {
-        name: 'Bit Graves',
-        url: 'http://bitgraves.com',
-        description: 'an experimental hardware+DSP band',
+        name: "Castle",
+        url: "https://castle.games",
+        description: "a game creation environment and community"
       },
       {
-        name: 'Expo',
-        url: 'http://expo.io',
-        description: 'an app creation tool',
+        name: "Bit Graves",
+        url: "http://bitgraves.com",
+        description: "an experimental hardware+DSP band"
       },
       {
-        name: 'PitShift',
-        url: 'https://reading.supply/@ben/implementing-a-pitch-shifter-in-supercollider-Z0fcAX',
-        description: 'a SuperCollider pitch shifter',
+        name: "Expo",
+        url: "http://expo.io",
+        description: "an app creation tool"
       },
       {
-        name: 'Circloid',
-        url: 'https://castle.games/+2/@ben/circloid',
-        description: 'a lua game',
+        name: "PitShift",
+        url:
+          "https://reading.supply/@ben/implementing-a-pitch-shifter-in-supercollider-Z0fcAX",
+        description: "a SuperCollider pitch shifter"
       },
       {
-        name: 'Structures',
-        url: 'https://terribleben.bandcamp.com/album/structures',
-        description: 'textural electronic ChucK music',
+        name: "Circloid",
+        url: "https://castle.games/+2/@ben/circloid",
+        description: "a lua game"
       },
       {
-        name: 'AM Sonora',
-        url: 'https://terribleben.bandcamp.com/album/am-sonora',
-        description: 'synthesizer border music',
+        name: "Structures",
+        url: "https://terribleben.bandcamp.com/album/structures",
+        description: "textural electronic ChucK music"
       },
       {
-        name: 'chuck-mode',
-        url: 'https://github.com/terribleben/chuck-mode',
-        description: 'emacs and ChucK',
+        name: "AM Sonora",
+        url: "https://terribleben.bandcamp.com/album/am-sonora",
+        description: "synthesizer border music"
       },
       {
-        name: 'Endless Library',
-        url: 'https://terribleben.itch.io/endless-library',
-        description: 'a procedurally generated library',
+        name: "chuck-mode",
+        url: "https://github.com/terribleben/chuck-mode",
+        description: "emacs and ChucK"
       },
       {
-        name: 'Goat machine',
-        url: '/demo/goatmachine0',
-        description: 'a WebAudio formant synthesizer',
+        name: "Endless Library",
+        url: "https://terribleben.itch.io/endless-library",
+        description: "a procedurally generated library"
       },
       {
-        name: 'Terrible Sync',
-        url: 'https://github.com/terribleben/terrible-sync',
-        description: 'a voltage metronome',
+        name: "Goat machine",
+        url: "/demo/goatmachine0",
+        description: "a WebAudio formant synthesizer"
       },
       {
-        name: 'Runabout',
-        url: 'https://castle.games/+37/@ben/runabout',
-        description: 'an abstract lander game',
+        name: "Terrible Sync",
+        url: "https://github.com/terribleben/terrible-sync",
+        description: "a voltage metronome"
       },
       {
-        name: 'Torus',
-        url: 'https://www.youtube.com/watch?v=vNhct2wUPIc',
-        description: 'revolving steelpans',
+        name: "Runabout",
+        url: "https://castle.games/+37/@ben/runabout",
+        description: "an abstract lander game"
       },
       {
-        name: 'Soundcloud',
-        url: 'https://soundcloud.com/terribleben',
-        description: 'old tracks',
+        name: "Torus",
+        url: "https://www.youtube.com/watch?v=vNhct2wUPIc",
+        description: "revolving steelpans"
       },
       {
-        name: 'Twitter',
-        url: 'https://twitter.com/terribleben',
-        description: 'a way to reach me',
+        name: "Soundcloud",
+        url: "https://soundcloud.com/terribleben",
+        description: "old tracks"
       },
       {
-        name: 'Github',
-        url: 'https://github.com/terribleben',
-        description: 'source code',
+        name: "Twitter",
+        url: "https://twitter.com/terribleben",
+        description: "a way to reach me"
       },
-    ],
-  },
+      {
+        name: "Github",
+        url: "https://github.com/terribleben",
+        description: "source code"
+      }
+    ]
+  }
 ];
 
 export default class App extends Component {
-  _renderSection = (section) => {
+  _renderSection = section => {
     return (
       <div id={section.id} key={section.id} class="topic">
-        {section.items.map((item) => (
+        {section.items.map(item => (
           <div className="item" key={item.name}>
-            <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>,{' '}
-            <span className="description">{item.description}</span>
+            <a href={item.url} target="_blank" rel="noopener noreferrer">
+              {item.name}
+            </a>
+            , <span className="description">{item.description}</span>
           </div>
         ))}
       </div>
@@ -110,7 +118,10 @@ export default class App extends Component {
         <div id="content">
           {sections.map(this._renderSection)}
           <div id="intro">
-            <p><span id="ben">Ben Roth</span>, a programmer and musician living in Seattle</p>
+            <p>
+              <span id="ben">Ben Roth</span>, a programmer and musician living
+              in Seattle
+            </p>
           </div>
         </div>
       </div>
