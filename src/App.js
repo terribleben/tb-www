@@ -7,6 +7,21 @@ const sections = [
     title: "Recently working on",
     items: [
       {
+        name: "Castle",
+        url: "https://castle.games",
+        description: "a game creation environment and community"
+      },
+      {
+        name: "Bit Graves",
+        url: "http://bitgraves.com",
+        description: "an experimental drone/noise band"
+      },
+      {
+	name: "Writing",
+	url: "https://reading.supply/@ben/",
+	description: "mostly about Bit Graves",
+      },
+      {
         name: "Untitled Dungeon",
         url: "https://castle.games/+6j1567",
         description: "a small pixel world which hides a mystery"
@@ -15,16 +30,6 @@ const sections = [
         name: "Untitled Dungeon OST",
         url: "https://terribleben.bandcamp.com/album/untitled-dungeon-ost",
         description: "the soundtrack for that game"
-      },
-      {
-        name: "Castle",
-        url: "https://castle.games",
-        description: "a game creation environment and community"
-      },
-      {
-        name: "Bit Graves",
-        url: "http://bitgraves.com",
-        description: "an experimental hardware+DSP band"
       },
       {
         name: "Expo",
