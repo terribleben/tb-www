@@ -8,8 +8,8 @@ const sections = [
     items: [
       {
         name: "Castle",
-        url: "https://castle.games",
-        description: "a game creation environment and community"
+        url: "https://castle.xyz",
+        description: "a way to make interactive art on your phone"
       },
       {
         name: "Bit Graves",
@@ -17,9 +17,9 @@ const sections = [
         description: "an experimental drone/noise band"
       },
       {
-	name: "Writing",
-	url: "https://reading.supply/@ben/",
-	description: "mostly about Bit Graves",
+        name: "Writing",
+        url: "https://reading.supply/@ben/",
+        description: "mostly about Bit Graves"
       },
       {
         name: "Untitled Dungeon",
