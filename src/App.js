@@ -23,7 +23,7 @@ const sections = [
       },
       {
         name: "Untitled Dungeon",
-        url: "https://castle.games/+6j1567",
+        url: "https://terribleben.itch.io/untitled-dungeon",
         description: "a small pixel world which hides a mystery"
       },
       {
