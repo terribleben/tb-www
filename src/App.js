@@ -113,7 +113,7 @@ export default class App extends Component {
       <div id={section.id} key={section.id} class="topic">
         {section.items.map(item => (
           <div className="item" key={item.name}>
-            <a href={item.url} target="_blank" rel={item.me ? 'me' : 'noopener noreferrer'}>
+            <a href={item.url} target="_blank" rel={item.me ? 'me noopener noreferrer' : 'noopener noreferrer'}>
               {item.name}
             </a>
             , <span className="description">{item.description}</span>
