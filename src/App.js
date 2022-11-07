@@ -110,7 +110,7 @@ const sections = [
 export default class App extends Component {
   _renderSection = section => {
     return (
-      <div id={section.id} key={section.id} class="topic">
+      <div id={section.id} key={section.id} className="topic">
         {section.items.map(item => (
           <div className="item" key={item.name}>
             <a href={item.url} target="_blank" rel={item.me ? 'me noopener noreferrer' : 'noopener noreferrer'}>
