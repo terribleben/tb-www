@@ -93,9 +93,10 @@ const sections = [
         description: "old tracks"
       },
       {
-        name: "Twitter",
-        url: "https://twitter.com/terribleben",
-        description: "a way to reach me"
+        name: "Mastodon",
+        url: "https://post.lurk.org/@terribleben",
+        description: "a way to reach me",
+        me: true,
       },
       {
         name: "Github",
@@ -112,7 +113,7 @@ export default class App extends Component {
       <div id={section.id} key={section.id} class="topic">
         {section.items.map(item => (
           <div className="item" key={item.name}>
-            <a href={item.url} target="_blank" rel="noopener noreferrer">
+            <a href={item.url} target="_blank" rel={item.me ? 'me' : 'noopener noreferrer'}>
               {item.name}
             </a>
             , <span className="description">{item.description}</span>
