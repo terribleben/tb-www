@@ -44,7 +44,7 @@ const sections = [
       },
       {
         name: "Circloid",
-        url: "https://castle.games/+2/@ben/circloid",
+        url: "https://github.com/terribleben/circloid",
         description: "a lua game"
       },
       {
@@ -64,7 +64,7 @@ const sections = [
       },
       {
         name: "Endless Library",
-        url: "https://terribleben.itch.io/endless-library",
+        url: "https://github.com/terribleben/endless-library",
         description: "a procedurally generated library"
       },
       {
@@ -79,7 +79,7 @@ const sections = [
       },
       {
         name: "Runabout",
-        url: "https://castle.games/+37/@ben/runabout",
+        url: "https://github.com/terribleben/runabout",
         description: "an abstract lander game"
       },
       {
