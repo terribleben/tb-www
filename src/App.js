@@ -7,11 +7,6 @@ const sections = [
     title: "Recently working on",
     items: [
       {
-        name: "Castle",
-        url: "https://castle.xyz",
-        description: "a way to make interactive art on your phone"
-      },
-      {
         name: "Bit Graves",
         url: "http://bitgraves.com",
         description: "an experimental drone/noise band"
@@ -20,6 +15,31 @@ const sections = [
         name: "Writing",
         url: "https://reading.supply/@ben/",
         description: "mostly about Bit Graves"
+      },
+      {
+        name: "Baikal",
+        url: "https://www.youtube.com/watch?v=HjcY6ooLjvM",
+        description: "a visualizer created with Hydra"
+      },
+      {
+        name: "norns-sandbox",
+        url: "https://github.com/bitgraves/norns-sandbox",
+        description: "SuperCollider patches for monome norns"
+      },
+      {
+        name: "Castle",
+        url: "https://castle.xyz",
+        description: "a way to make interactive art on your phone"
+      },
+      {
+        name: "hey buddy",
+        url: "https://castle.xyz/d/nWSp1fQdX",
+        description: "a game about tv and corn"
+      },
+      {
+        name: "recyclebrain",
+        url: "https://castle.xyz/d/nWSp1fQdX",
+        description: "another dreamcore game"
       },
       {
         name: "Untitled Dungeon",
@@ -33,7 +53,7 @@ const sections = [
       },
       {
         name: "Expo",
-        url: "http://expo.io",
+        url: "http://expo.dev",
         description: "an app creation tool"
       },
       {
@@ -42,11 +62,11 @@ const sections = [
           "https://reading.supply/@ben/implementing-a-pitch-shifter-in-supercollider-Z0fcAX",
         description: "a SuperCollider pitch shifter"
       },
-      {
+      /* {
         name: "Circloid",
         url: "https://github.com/terribleben/circloid",
         description: "a lua game"
-      },
+      }, */
       {
         name: "Structures",
         url: "https://terribleben.bandcamp.com/album/structures",
@@ -62,11 +82,11 @@ const sections = [
         url: "https://github.com/terribleben/chuck-mode",
         description: "emacs and ChucK"
       },
-      {
+      /* {
         name: "Endless Library",
         url: "https://github.com/terribleben/endless-library",
         description: "a procedurally generated library"
-      },
+      }, */
       {
         name: "Goat machine",
         url: "/demo/goatmachine0",
@@ -77,11 +97,11 @@ const sections = [
         url: "https://github.com/terribleben/terrible-sync",
         description: "a voltage metronome"
       },
-      {
+      /* {
         name: "Runabout",
         url: "https://github.com/terribleben/runabout",
         description: "an abstract lander game"
-      },
+      }, */
       {
         name: "Torus",
         url: "https://www.youtube.com/watch?v=vNhct2wUPIc",
@@ -96,7 +116,7 @@ const sections = [
         name: "Mastodon",
         url: "https://post.lurk.org/@terribleben",
         description: "a way to reach me",
-        me: true,
+        me: true
       },
       {
         name: "Github",
@@ -113,7 +133,11 @@ export default class App extends Component {
       <div id={section.id} key={section.id} className="topic">
         {section.items.map(item => (
           <div className="item" key={item.name}>
-            <a href={item.url} target="_blank" rel={item.me ? 'me noopener noreferrer' : 'noopener noreferrer'}>
+            <a
+              href={item.url}
+              target="_blank"
+              rel={item.me ? "me noopener noreferrer" : "noopener noreferrer"}
+            >
               {item.name}
             </a>
             , <span className="description">{item.description}</span>
