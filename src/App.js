@@ -3,6 +3,17 @@ import "./App.css";
 
 const sections = [
   {
+    id: "upcoming",
+    title: "Arriving soon",
+    items: [
+      {
+        name: "Pharmacy & Gift Shop",
+        url: "https://youtu.be/3jPsO2jIU20",
+        description: "a new solo EP arriving February 2, 2024"
+      }
+    ]
+  },
+  {
     id: "current",
     title: "Recently working on",
     items: [
