@@ -59,7 +59,7 @@ const sections = [
       },
       {
         name: "Untitled Dungeon OST",
-        url: "https://terribleben.bandcamp.com/album/untitled-dungeon-ost",
+        url: "https://alcala-roth.bandcamp.com/album/untitled-dungeon-ost",
         description: "the soundtrack for that game"
       },
       {
@@ -80,12 +80,12 @@ const sections = [
       }, */
       {
         name: "Structures",
-        url: "https://terribleben.bandcamp.com/album/structures",
+        url: "https://alcala-roth.bandcamp.com/album/structures",
         description: "textural electronic ChucK music"
       },
       {
         name: "AM Sonora",
-        url: "https://terribleben.bandcamp.com/album/am-sonora",
+        url: "https://alcala-roth.bandcamp.com/album/am-sonora",
         description: "synthesizer border music"
       },
       {
