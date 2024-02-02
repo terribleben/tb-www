@@ -3,13 +3,21 @@ import "./App.css";
 
 const sections = [
   {
-    id: "upcoming",
-    title: "Arriving soon",
+    id: "new",
+    title: "New",
     items: [
       {
         name: "Pharmacy & Gift Shop",
-        url: "https://youtu.be/3jPsO2jIU20",
-        description: "a new solo EP arriving February 2, 2024"
+        url: "https://alcala-roth.bandcamp.com/album/pharmacy-gift-shop",
+        description: "musical sketches for tidalcycles and hardware"
+      },
+      {
+        name: "[video 1]",
+        url: "https://www.youtube.com/watch?v=3jPsO2jIU20"
+      },
+      {
+        name: "[video 2]",
+        url: "https://youtu.be/2oC3PhzrjmA"
       }
     ]
   },
@@ -151,7 +159,11 @@ export default class App extends Component {
             >
               {item.name}
             </a>
-            , <span className="description">{item.description}</span>
+            {item.description?.length ? (
+              <span>
+                , <span className="description">{item.description}</span>
+              </span>
+            ) : null}
           </div>
         ))}
       </div>
