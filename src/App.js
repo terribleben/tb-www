@@ -132,7 +132,7 @@ const sections = [
         description: "old tracks"
       },
       {
-        name: "Mastodon",
+        name: "Lurk",
         url: "https://post.lurk.org/@terribleben",
         description: "a way to reach me",
         me: true
@@ -141,7 +141,7 @@ const sections = [
         name: "Github",
         url: "https://github.com/terribleben",
         description: "source code"
-      }
+      },
     ]
   }
 ];
