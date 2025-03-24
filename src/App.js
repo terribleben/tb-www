@@ -70,11 +70,11 @@ const sections = [
         url: "https://alcala-roth.bandcamp.com/album/untitled-dungeon-ost",
         description: "the soundtrack for that game"
       },
-      {
+      /* {
         name: "Expo",
         url: "http://expo.dev",
         description: "an app creation tool"
-      },
+      }, */
       {
         name: "PitShift",
         url:
@@ -96,21 +96,21 @@ const sections = [
         url: "https://alcala-roth.bandcamp.com/album/am-sonora",
         description: "synthesizer border music"
       },
-      {
+      /* {
         name: "chuck-mode",
         url: "https://github.com/terribleben/chuck-mode",
         description: "emacs and ChucK"
       },
-      /* {
+      {
         name: "Endless Library",
         url: "https://github.com/terribleben/endless-library",
         description: "a procedurally generated library"
-      }, */
+      },
       {
         name: "Goat machine",
         url: "/demo/goatmachine0",
         description: "a WebAudio formant synthesizer"
-      },
+      }, */
       {
         name: "Terrible Sync",
         url: "https://github.com/terribleben/terrible-sync",
@@ -141,7 +141,7 @@ const sections = [
         name: "Github",
         url: "https://github.com/terribleben",
         description: "source code"
-      },
+      }
     ]
   }
 ];
@@ -177,8 +177,8 @@ export default class App extends Component {
           {sections.map(this._renderSection)}
           <div id="intro">
             <p>
-              <span id="ben">Ben Roth</span>, a programmer and musician living
-              in Seattle
+              <span id="ben">Ben</span>, a programmer and musician living in
+              Seattle
             </p>
           </div>
         </div>
