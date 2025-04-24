@@ -9,8 +9,8 @@ const sections = [
       {
         name: "Airlock Etiquette",
         url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
-        description: "new EP releasing May 2, 2025",
-      },
+        description: "new EP releasing May 2, 2025"
+      }
     ]
   },
   {
@@ -62,11 +62,11 @@ const sections = [
         url: "https://castle.xyz/d/nWSp1fQdX",
         description: "another dreamcore game"
       },
-      {
+      /* {
         name: "Untitled Dungeon",
         url: "https://terribleben.itch.io/untitled-dungeon",
         description: "a small pixel world which hides a mystery"
-      },
+      }, */
       /* {
         name: "Untitled Dungeon OST",
         url: "https://alcala-roth.bandcamp.com/album/untitled-dungeon-ost",
