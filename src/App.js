@@ -2,23 +2,17 @@ import React, { Component } from "react";
 import "./App.css";
 
 const sections = [
-  /* {
+  {
     id: "new",
     title: "New",
     items: [
       {
-
+        name: "Airlock Etiquette",
+        url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
+        description: "new EP releasing May 2, 2025",
       },
-      {
-        name: "[video 1]",
-        url: "https://www.youtube.com/watch?v=3jPsO2jIU20"
-      },
-      {
-        name: "[video 2]",
-        url: "https://youtu.be/2oC3PhzrjmA"
-      }
     ]
-  }, */
+  },
   {
     id: "current",
     title: "Recently working on",
