@@ -2,14 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 
 const sections = [
-  {
+  /* {
     id: "new",
     title: "New",
     items: [
       {
-        name: "Pharmacy & Gift Shop",
-        url: "https://alcala-roth.bandcamp.com/album/pharmacy-gift-shop",
-        description: "musical sketches for tidalcycles and hardware"
+
       },
       {
         name: "[video 1]",
@@ -20,11 +18,16 @@ const sections = [
         url: "https://youtu.be/2oC3PhzrjmA"
       }
     ]
-  },
+  }, */
   {
     id: "current",
     title: "Recently working on",
     items: [
+      {
+        name: "Pharmacy & Gift Shop",
+        url: "https://alcala-roth.bandcamp.com/album/pharmacy-gift-shop",
+        description: "musical sketches for tidalcycles and hardware"
+      },
       {
         name: "Bit Graves",
         url: "http://bitgraves.com",
