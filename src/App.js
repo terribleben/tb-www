@@ -39,10 +39,15 @@ const sections = [
         description: "mostly about Bit Graves"
       },
       {
+        name: "Huerto de Vidrio",
+        url: "https://www.youtube.com/watch?v=3jPsO2jIU20",
+        description: "a visualizer created with Hydra"
+      },
+      /* {
         name: "Baikal",
         url: "https://www.youtube.com/watch?v=HjcY6ooLjvM",
         description: "a visualizer created with Hydra"
-      },
+      }, */
       {
         name: "norns-sandbox",
         url: "https://github.com/bitgraves/norns-sandbox",
@@ -68,11 +73,11 @@ const sections = [
         url: "https://terribleben.itch.io/untitled-dungeon",
         description: "a small pixel world which hides a mystery"
       },
-      {
+      /* {
         name: "Untitled Dungeon OST",
         url: "https://alcala-roth.bandcamp.com/album/untitled-dungeon-ost",
         description: "the soundtrack for that game"
-      },
+      }, */
       /* {
         name: "Expo",
         url: "http://expo.dev",
