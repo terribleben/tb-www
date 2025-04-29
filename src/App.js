@@ -10,7 +10,11 @@ const sections = [
         name: "Airlock Etiquette",
         url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
         description: "new EP releasing May 2, 2025"
-      }
+      },
+      {
+        name: "[video 1]",
+        url: "https://youtu.be/-ajTuql8ZVU",
+      },
     ]
   },
   {
