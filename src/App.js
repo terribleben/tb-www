@@ -9,12 +9,12 @@ const sections = [
       {
         name: "Airlock Etiquette",
         url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
-        description: "new EP releasing May 2, 2025"
+        description: "uncanny spaces and beats for tidalcycles and hardware"
       },
       {
         name: "[video 1]",
-        url: "https://youtu.be/-ajTuql8ZVU",
-      },
+        url: "https://youtu.be/-ajTuql8ZVU"
+      }
     ]
   },
   {
@@ -24,7 +24,7 @@ const sections = [
       {
         name: "Pharmacy & Gift Shop",
         url: "https://alcala-roth.bandcamp.com/album/pharmacy-gift-shop",
-        description: "musical sketches for tidalcycles and hardware"
+        description: "further spaces and beats"
       },
       {
         name: "Bit Graves",
