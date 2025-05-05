@@ -13,6 +13,10 @@ const sections = [
       },
       {
         name: "[video 1]",
+        url: "https://youtu.be/q6SVdaqNym4"
+      },
+      {
+        name: "[video 2]",
         url: "https://youtu.be/-ajTuql8ZVU"
       }
     ]
