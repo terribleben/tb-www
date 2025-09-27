@@ -7,6 +7,11 @@ const sections = [
     title: "New",
     items: [
       {
+        name: "Performing live in Fremont, Seattle",
+        url: "https://www.instagram.com/accuraci_/p/DPANP18gW6W/",
+        description: "Oct 3, 2025"
+      }
+      /* {
         name: "Airlock Etiquette",
         url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
         description: "uncanny spaces and beats for tidalcycles and hardware"
@@ -18,13 +23,18 @@ const sections = [
       {
         name: "[video 2]",
         url: "https://youtu.be/-ajTuql8ZVU"
-      }
+      } */
     ]
   },
   {
     id: "current",
     title: "Recently working on",
     items: [
+      {
+        name: "Airlock Etiquette",
+        url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
+        description: "uncanny spaces and beats for tidalcycles and hardware"
+      },
       {
         name: "Pharmacy & Gift Shop",
         url: "https://alcala-roth.bandcamp.com/album/pharmacy-gift-shop",
