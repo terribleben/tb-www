@@ -7,9 +7,9 @@ const sections = [
     title: "New",
     items: [
       {
-        name: "Performing live in Fremont, Seattle",
-        url: "https://www.instagram.com/accuraci_/p/DPANP18gW6W/",
-        description: "Oct 3, 2025"
+        name: "Performing live at Black Lodge, Seattle",
+        url: 'https://www.seattlenoise.org/calendar/',
+        description: "Nov 3, 2025"
       }
       /* {
         name: "Airlock Etiquette",
