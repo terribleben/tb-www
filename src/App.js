@@ -7,9 +7,8 @@ const sections = [
     title: "New",
     items: [
       {
-        name: "Performing live at Black Lodge, Seattle",
-        url: 'https://www.seattlenoise.org/calendar/',
-        description: "Nov 3, 2025"
+        name: "Performing at Electric Blue Fest, Seattle",
+        description: "Apr 18, 2026 with Bit Graves"
       }
       /* {
         name: "Airlock Etiquette",
