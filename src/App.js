@@ -7,9 +7,14 @@ const sections = [
     title: "New",
     items: [
       {
+        name: "Wake / Sleep",
+        description: "a new drone / experimental EP by Bit Graves",
+        url: "https://bitgraves.bandcamp.com/album/wake-sleep"
+      }
+      /* {
         name: "Performing at Electric Blue Fest, Seattle",
         description: "Apr 18, 2026 with Bit Graves"
-      }
+      } */
       /* {
         name: "Airlock Etiquette",
         url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
