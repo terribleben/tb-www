@@ -10,24 +10,11 @@ const sections = [
         name: "Wake / Sleep",
         description: "a new drone / experimental EP by Bit Graves",
         url: "https://bitgraves.bandcamp.com/album/wake-sleep"
+      },
+      {
+        name: "[video]",
+        url: "https://youtu.be/HmyZK5c-ZZA"
       }
-      /* {
-        name: "Performing at Electric Blue Fest, Seattle",
-        description: "Apr 18, 2026 with Bit Graves"
-      } */
-      /* {
-        name: "Airlock Etiquette",
-        url: "https://alcala-roth.bandcamp.com/album/airlock-etiquette",
-        description: "uncanny spaces and beats for tidalcycles and hardware"
-      },
-      {
-        name: "[video 1]",
-        url: "https://youtu.be/q6SVdaqNym4"
-      },
-      {
-        name: "[video 2]",
-        url: "https://youtu.be/-ajTuql8ZVU"
-      } */
     ]
   },
   {
@@ -135,11 +122,11 @@ const sections = [
         url: "/demo/goatmachine0",
         description: "a WebAudio formant synthesizer"
       }, */
-      {
+      /* {
         name: "Terrible Sync",
         url: "https://github.com/terribleben/terrible-sync",
         description: "a voltage metronome"
-      },
+      }, */
       /* {
         name: "Runabout",
         url: "https://github.com/terribleben/runabout",
@@ -154,6 +141,11 @@ const sections = [
         name: "Soundcloud",
         url: "https://soundcloud.com/terribleben",
         description: "old tracks"
+      },
+      {
+        name: "Insta",
+        url: "https://www.instagram.com/alcala.roth",
+        description: "for updates"
       },
       {
         name: "Lurk",
